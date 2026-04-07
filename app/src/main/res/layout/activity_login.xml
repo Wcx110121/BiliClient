@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哔哩哔哩"
+        android:textSize="28sp"
+        android:textColor="#FB7299"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用哔哩哔哩APP扫码登录"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/qrcodeImage"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="#F5F5F5"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等待扫码..."
+        android:textSize="14sp"
+        android:textColor="#999999" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="刷新二维码"
+        android:background="#FB7299"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+</LinearLayout>

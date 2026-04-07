@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 1. 白色背景 -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+
+    <!-- 2. 左侧竖线 └（单蓝色） -->
+    <item
+        android:gravity="left"
+        android:top="24dp"
+        android:width="1dp">
+        <shape>
+            <solid android:color="#0099E6" />
+        </shape>
+    </item>
+
+    <!-- 3. 右侧竖线 ┘（单蓝色） -->
+    <item
+        android:gravity="right"
+        android:top="24dp"
+        android:width="1dp">
+        <shape>
+            <solid android:color="#0099E6" />
+        </shape>
+    </item>
+
+    <!-- 4. 底部横线 ───────（单蓝色，2dp高，视觉上就是一整块蓝） -->
+    <item
+        android:gravity="bottom"
+        android:height="2dp">
+        <shape>
+            <solid android:color="#0099E6" />
+        </shape>
+    </item>
+
+</layer-list>

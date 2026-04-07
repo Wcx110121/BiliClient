@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 底层：纯色粉紫 -->
+    <item>
+        <shape>
+            <solid android:color="#db7093" />
+        </shape>
+    </item>
+
+    <!-- 顶部遮罩：非常微弱的黑色渐变（厚度不变） -->
+    <item android:top="0dp" android:bottom="40dp">
+        <shape>
+            <gradient
+                android:startColor="#15000000"
+                android:endColor="#00000000"
+                android:angle="270"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- 底部遮罩：非常微弱的深紫色渐变（厚度不变） -->
+    <item android:top="38dp" android:bottom="0dp">
+        <shape>
+            <gradient
+                android:startColor="#00000000"
+                android:endColor="#15c060a0"
+                android:angle="270"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>

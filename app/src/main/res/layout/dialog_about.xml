@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="500dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- App 名称 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BiliClient"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 版本号 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本 1.0.0"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 使用的开源库 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📦 使用的开源库"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• ExoPlayer (Apache 2.0)"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Glide (BSD)"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• OkHttp (Apache 2.0)"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• ZXing (Apache 2.0)"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 参考项目 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📖 参考项目"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• bilibili-API-collect"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• PiliPala"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 哔哩终端"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 作者与协议 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Wcx110121 (wcxawa)"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本程序基于 MIT 协议开源，仅供学习交流"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

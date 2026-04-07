@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 阴影层 -->
+    <item>
+        <shape>
+            <solid android:color="#DDDDDD"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+    <!-- 主体层，向右下偏移产生阴影效果 -->
+    <item
+        android:bottom="2dp"
+        android:right="2dp">
+        <shape>
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+</layer-list>

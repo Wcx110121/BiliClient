@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Holo风格 TabLayout 样式（纯方角指示器） -->
+    <style name="HoloTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabIndicatorHeight">8dp</item>
+        <item name="tabIndicatorColor">#ffb6c1</item>
+        <item name="tabRippleColor">@android:color/transparent</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicatorAnimationMode">linear</item>
+        <item name="tabSelectedTextColor">#FFFFFF</item>
+        <item name="tabTextColor">#FFFFFF</item>
+        <item name="tabMinWidth">0dp</item>
+        <item name="tabMaxWidth">0dp</item>
+    </style>
+
+</resources>
