@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.app.AlertDialog;
 import android.content.ClipData;
@@ -18,8 +18,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import com.wcxawa.biliclient.util.NetWorkUtil;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.util.NetWorkUtil;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
 
 public class ProfileFragment extends Fragment {
 

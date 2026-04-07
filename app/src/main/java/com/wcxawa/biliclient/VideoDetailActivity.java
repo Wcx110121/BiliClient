@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -27,9 +27,9 @@ import androidx.media3.datasource.okhttp.OkHttpDataSource;
 import androidx.media3.exoplayer.ExoPlayer;
 import androidx.media3.ui.PlayerView;
 import com.bumptech.glide.Glide;
-import com.wcxawa.biliclient.api.PartitionApi;
-import com.wcxawa.biliclient.model.VideoCard;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.api.PartitionApi;
+import com.wcxawa.biliretro.model.VideoCard;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
 import com.google.android.material.snackbar.Snackbar;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

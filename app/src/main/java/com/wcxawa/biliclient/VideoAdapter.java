@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
 import java.util.List;
-import com.wcxawa.biliclient.model.VideoCard;
+import com.wcxawa.biliretro.model.VideoCard;
 
 @UnstableApi
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> {

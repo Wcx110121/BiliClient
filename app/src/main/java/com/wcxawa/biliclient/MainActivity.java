@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -17,10 +17,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-import com.wcxawa.biliclient.api.PartitionApi;
-import com.wcxawa.biliclient.model.VideoCard;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
-import com.wcxawa.biliclient.util.NetWorkUtil;
+import com.wcxawa.biliretro.api.PartitionApi;
+import com.wcxawa.biliretro.model.VideoCard;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.util.NetWorkUtil;
 
 import java.util.ArrayList;
 import java.util.List;

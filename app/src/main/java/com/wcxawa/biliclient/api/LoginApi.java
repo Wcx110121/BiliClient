@@ -1,6 +1,6 @@
-package com.wcxawa.biliclient.api;
+package com.wcxawa.biliretro.api;
 
-import com.wcxawa.biliclient.util.NetWorkUtil;
+import com.wcxawa.biliretro.util.NetWorkUtil;
 import org.json.JSONObject;
 
 public class LoginApi {

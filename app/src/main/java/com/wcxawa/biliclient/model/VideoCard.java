@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient.model;
+package com.wcxawa.biliretro.model;
 
 public class VideoCard {
     public String title;

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "BiliClient"
+rootProject.name = "BiliRetro"
 include ':app'

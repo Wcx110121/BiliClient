@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

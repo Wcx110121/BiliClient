@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.wcxawa.biliclient'  // 改了这里
+    namespace 'com.wcxawa.biliretro'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.wcxawa.biliclient"  // 改了这里
+        applicationId "com.wcxawa.biliretro"
         minSdk 21
         targetSdk 35
         versionCode 1

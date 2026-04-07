@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import com.wcxawa.biliclient.api.LoginApi;
-import com.wcxawa.biliclient.util.NetWorkUtil;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.api.LoginApi;
+import com.wcxawa.biliretro.util.NetWorkUtil;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;

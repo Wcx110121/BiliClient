@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient.util;
+package com.wcxawa.biliretro.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

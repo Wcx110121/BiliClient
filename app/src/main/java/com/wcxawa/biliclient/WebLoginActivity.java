@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import com.wcxawa.biliclient.util.NetWorkUtil;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.util.NetWorkUtil;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
 
 public class WebLoginActivity extends AppCompatActivity {
 

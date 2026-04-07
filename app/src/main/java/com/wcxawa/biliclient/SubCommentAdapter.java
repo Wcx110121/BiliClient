@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.wcxawa.biliclient.api.PartitionApi;
+import com.wcxawa.biliretro.api.PartitionApi;
 import com.google.android.material.snackbar.Snackbar;
 import java.util.List;
 

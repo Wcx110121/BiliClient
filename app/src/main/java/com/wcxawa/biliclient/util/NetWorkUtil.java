@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient.util;
+package com.wcxawa.biliretro.util;
 
 import org.json.JSONException;
 import org.json.JSONObject;

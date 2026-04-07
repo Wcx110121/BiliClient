@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
-import com.wcxawa.biliclient.model.VideoCard;
-import com.wcxawa.biliclient.api.PartitionApi;
+import com.wcxawa.biliretro.model.VideoCard;
+import com.wcxawa.biliretro.api.PartitionApi;
 
 public class VideoGridFragment extends Fragment {
 

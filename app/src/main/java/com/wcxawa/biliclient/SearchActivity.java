@@ -1,4 +1,4 @@
-package com.wcxawa.biliclient;
+package com.wcxawa.biliretro;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,9 +15,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.wcxawa.biliclient.api.PartitionApi;
-import com.wcxawa.biliclient.model.VideoCard;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.api.PartitionApi;
+import com.wcxawa.biliretro.model.VideoCard;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.wcxawa.biliclient.api;
+package com.wcxawa.biliretro.api;
 
-import com.wcxawa.biliclient.model.VideoCard;
-import com.wcxawa.biliclient.util.NetWorkUtil;
-import com.wcxawa.biliclient.util.SharedPreferencesUtil;
-import com.wcxawa.biliclient.util.StringUtil;
+import com.wcxawa.biliretro.model.VideoCard;
+import com.wcxawa.biliretro.util.NetWorkUtil;
+import com.wcxawa.biliretro.util.SharedPreferencesUtil;
+import com.wcxawa.biliretro.util.StringUtil;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
